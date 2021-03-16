@@ -1,6 +1,7 @@
-use ley::{Parser, Ley};
+use ley::Ley;
 
 #[test]
 fn parse_report() {
-    Parser::new(include_str!("report.ley")).parse().unwrap();
+    let ley = Ley::parse(include_str!("report.ley")).unwrap();
+    println!("{:#?}", ley)
 }
