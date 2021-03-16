@@ -1,0 +1,29 @@
+!title: meta {Example Report}
+!author: meta {Adam Adamson}
+!author: meta {Bob Bobson}
+!date: meta {1901/1/1}
+!document: meta {report}
+!style: meta {standard}
+
+!abstract: p {
+    A report written in ley.
+}
+
+!include: meta {example.ley}
+
+!Section 1: s {
+    !: p {
+        The first section. Sections provide a heirachical structure for document formatting under linkable headings
+    }
+    !: p {
+        Paragraphs do not include text formatting.
+        Whitespace is ignored and symbols are placed correctly based on the style guide.
+    }
+}
+
+!Rust: code {{
+
+}}
+!!Apples: 6:: {
+
+}
